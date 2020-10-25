@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: #FA8C16;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.header-wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-wrapper nav {
+  margin-left: 60px;
+  margin-right: auto;
+}
+.header-wrapper ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header-wrapper ul li a {
+  text-decoration: none;
+  color: #fafafa;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 22;
+}
+.input-group {
+  width: 237px;
+  height: 32px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #d9d9d9;
+}
+.input-group input {
+  height: 100%;
+  width: 80%;
+  border: none;
+  font-size: 14px;
+  line-height: 22px;
+  /* замена цвета placeholder в input*/
+}
+.input-group input::-webkit-input-placeholder {
+  color: #ffd595;
+}
+.input-group input:-moz-placeholder {
+  color: #ffd595;
+}
+.input-group input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffd595;
+}
+.input-group input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ffd595;
+}
+.input-group button {
+  height: 100%;
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
